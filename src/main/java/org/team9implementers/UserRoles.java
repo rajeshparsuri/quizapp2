@@ -65,6 +65,7 @@ public class UserRoles {
 
         } else if (adminOrPlayer == SUPER_ADMIN_ROLE) {
             System.out.println("I am the ultimate user of this app.");
+            System.out.println("I am gonna cut down all the access");
         }
 
     }
