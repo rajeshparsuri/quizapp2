@@ -11,6 +11,8 @@ public class UserRoles {
     public final static int ADMIN_ROLE = 1;
     public final static int PLAYER_ROLE = 2;
 
+    public final static int SUPER_ADMIN_ROLE = 0;
+
     public void identifyUser() {
 
         int adminOrPlayer=0;
@@ -61,6 +63,8 @@ public class UserRoles {
             Player player = new Player();
             player.playQuiz();
 
+        } else if (adminOrPlayer == SUPER_ADMIN_ROLE) {
+            System.out.println("I am the ultimate user of this app.");
         }
 
     }
