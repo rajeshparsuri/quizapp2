@@ -56,11 +56,11 @@ public class UserRoles {
         }
         else if(adminOrPlayer == PLAYER_ROLE) {
             // Player
+            System.out.println("Yahoooo! I am in the main branch");
             System.out.println("Welcome Player to play the quiz");
             System.out.println("Enter the player user name");
             Player player = new Player();
             player.playQuiz();
-
         }
 
     }
